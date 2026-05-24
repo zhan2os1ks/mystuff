@@ -1,0 +1,17 @@
+body{
+  margin: 0px;
+}
+code {
+  background: #e5e7e9;
+  border: 1px solid #d0d3d7;
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Noto Mono", monospace;
+  font-size: 0.95em;
+}
+pre code {
+  display: block;
+  padding: 1em;
+  white-space: pre-wrap; /* or pre */
+  overflow: auto;
+}
