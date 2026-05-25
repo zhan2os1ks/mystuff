@@ -1,30 +1,39 @@
 <DOCTYPE=html>
 <html>
 	<head>
-		<title>Zhan2os1ks/MyStuff</title>
+		<title>Zhan2os1ks' stuff</title>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
 	</head>
 	<body>
 		<h1>
 			Zhan2os1ks' website | Hello everyone! 
 		</h1>
-		<div class="schedule">
-			<h3 class="scheduletitle">
-				My daily schedule for <
-			</h3>
-			<table class="scheduletable">
-				<tr class="scheduleweek">
-					<th class="scheduleweekinshd">W</th>
-					<th class="scheduleweekinshd">Mo</th>
-					<th class="scheduleweekinshd">Tu</th>
-					<th class="scheduleweekinshd">We</th>
-					<th class="scheduleweekinshd">Th</th>
-					<th class="scheduleweekinshd">Fr</th>
-					<th class="scheduleweekinshd">Sa</th>
-					<th class="scheduleweekinshd">Su</th>
-				</tr>
-				<tr class="scheduleweek">
-					<th class="scheduleweekins"></th>
-				</tr>
+		
+		<div class="schedule-container">
+    		<h2>Weekly Schedule, week <code id="schedule-week-num">?</code></h2>
+    		<table class="schedule-table">
+        	<thead>
+            	<tr>
+                	<th>Monday</th>
+                	<th>Tuesday</th>
+                	<th>Wednesday</th>
+                	<th>Thursday</th>
+                	<th>Friday</th>
+                	<th>Saturday</th>
+                	<th>Sunday</th>
+            	</tr>
+        	</thead>
+        	<tbody>
+            	<tr>
+                	<td class="schedule-text" id="schedulecell-mo"></td>
+                	<td class="schedule-text" id="schedulecell-tu"></td>
+                	<td class="schedule-text" id="schedulecell-we"></td>
+                	<td class="schedule-text" id="schedulecell-th"></td>
+                	<td class="schedule-text" id="schedulecell-fr"></td>
+                	<td class="schedule-text" id="schedulecell-sa"></td>
+                	<td class="schedule-text" id="schedulecell-su"></td>
+            	</tr>
+        	</tbody>
 			</table>
 		</div>
 	</body>
